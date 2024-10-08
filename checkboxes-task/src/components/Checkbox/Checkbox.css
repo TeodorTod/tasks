@@ -1,0 +1,26 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.checkbox.inline {
+    display: inline-flex;
+    margin-right: 16px;
+}
+
+.checkbox.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.checkbox-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.checkbox-label {
+    font-size: 14px;
+}
